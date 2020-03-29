@@ -5,15 +5,15 @@
         "location"
       ]
     },
-    "actions.Inform_Action": {
+    "action_inform": {
       "slots": [
         "location"
       ]
     },
-    "utter_goodbye": {
+    "utter_greet": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_goodbye": {
       "slots": []
     }
   },
@@ -29,7 +29,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20200329-144151",
+  "trained_at": "20200329-203129",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.2",
   "sklearn": "0.20.4"

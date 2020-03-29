@@ -1,22 +1,19 @@
 %YAML 1.1
 ---
 actions:
-- actions.Inform_Action
-- utter_goodbye
 - utter_greet
-- utter_intro
 - utter_ask_location
-
+- utter_goodbye
+- action_inform
+- utter_intro
 entities:
 - location
-
 intents:
-- goodbye
-- ask_location
 - greet
+- ask_location
+- goodbye
 - inform
 - how_may_i_help?
-
 slots:
   location:
     type: text

@@ -1,24 +1,24 @@
 %YAML 1.1
 ---
 actions:
-- actions.Inform_Action
+- utter_intro
 - utter_goodbye
 - utter_greet
-- utter_intro
 - utter_ask_location
+- action_inform
 config:
   store_entities_as_slots: true
 entities:
 - location
 forms: []
 intents:
-- goodbye:
-    use_entities: true
-- ask_location:
-    use_entities: true
 - greet:
     use_entities: true
 - inform:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- ask_location:
     use_entities: true
 - how_may_i_help?:
     use_entities: true

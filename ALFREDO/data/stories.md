@@ -6,7 +6,7 @@
 	- utter_ask_location
 * inform{"location": "India"}
 	- slot{"location": "India"}
-	- actions.Inform_Action
+	- action_inform
 	- slot{"location": "India"}
 * goodbye
 	- utter_goodbye
@@ -22,5 +22,21 @@
 
 ## story_3
 * inform
-	- actions.Inform_Action
+	- action_inform
+
+## Generated Story 1829151956689331068
+* greet
+    - utter_greet
+* inform{"location": "India"}
+    - slot{"location": "India"}
+    - action_inform
+
+## Generated Story -4885371253018502100
+* greet
+    - utter_greet
+* inform{"location": "India"}
+    - slot{"location": "India"}
+    - action_inform
+
+## Generated Story 0
 
