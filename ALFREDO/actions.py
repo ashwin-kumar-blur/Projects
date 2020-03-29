@@ -1,10 +1,11 @@
-from __future__ import absolute__import
+
+from __future__ import absolute_import
 from __future__ import division
 from __future__ import unicode_literals
 
 
-from rasa_core.actions.action import Action
-from rasa_core.events import Slotset
+from rasa_core_sdk import Action
+from rasa_core_sdk import events
 
 
 class Inform_Action(Action):
@@ -33,4 +34,4 @@ class Inform_Action(Action):
 		Details = ("The death count is {} and the count for recovered cases is {} while there are {} total number of "
 		      		"reported cases".format(deaths,recovered,total_case))
 		dispatcher.utter_message(Details)
-		return(Slotset('location',loc))
+		return(events.Slotset('location',loc))

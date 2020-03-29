@@ -1,15 +1,13 @@
+## intent:ask_location
+- i want to know corona virus details
+
+## intent:goodbye
+- thon -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
+
 ## intent:greet
-- hello
-- HI
-- hey
-- Hola
+- hi
 - hi
 
 ## intent:inform
-- i want to know the covid19 details
-- i want to know for India
-- i want to know the corona details
-- [world](location)
-- give me the death rates for [usa](location)
-- give me the details for covid19 for [France](location)
-- please tell me India on corona virus
+- for [Germany](location)
+- give me the detals for covid19 for [France](location)

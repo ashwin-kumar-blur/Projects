@@ -19,8 +19,8 @@
 - In the [world](location)
 - [worldwide](location)
 - [all over](location)
-- current [figures](details) for covid19 all over the [world](location)
-- current [details](details) on covid19 [worldwide](location)
+- current figures for covid19 all over the [world](location)
+- current details on covid19 [worldwide](location)
 - could you please help me with the current numbers in [Spain](location) for covid19?
 - could you please help me with the current numbers in [Spain](location) for corona infected?
 - total number of deaths in the world due to covid19

@@ -3,7 +3,9 @@
     "intent_ask_location",
     "intent_goodbye",
     "intent_greet",
+    "intent_how_may_i_help?",
     "intent_inform",
+    "entity_location",
     "slot_location_0",
     "prev_action_listen",
     "prev_action_restart",
@@ -13,10 +15,10 @@
     "prev_action_default_ask_affirmation",
     "prev_action_default_ask_rephrase",
     "prev_action_back",
-    "prev_utter_greet",
+    "prev_actions.Inform_Action",
     "prev_utter_goodbye",
-    "prev_utter_ask_location",
-    "prev_utter_inform",
-    "prev_actions.Inform_Action"
+    "prev_utter_greet",
+    "prev_utter_intro",
+    "prev_utter_ask_location"
   ]
 }

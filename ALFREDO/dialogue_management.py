@@ -30,6 +30,11 @@ def train_dialogue(domain_file = 'domain.yml',
 
 def run_bot(serve_forever = True):
 	interpreter = RasaNLUInterpreter('./models/current/nlu/')
-	agent = Agent.load('./models/dialogue', interpreter = interpreter)
+	agent = Agent.load('./models/dialogue/', interpreter = interpreter)
 	if serve_forever:
 		agent.handle_channels([CmdlineInput()])
+	return agent
+
+if __name__ == '__main__':
+	train_dialogue()
+	run_bot()

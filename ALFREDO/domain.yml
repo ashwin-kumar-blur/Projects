@@ -1,17 +1,21 @@
 %YAML 1.1
 ---
 actions:
-- utter_greet
-- utter_goodbye
-- utter_ask_location
 - actions.Inform_Action
+- utter_goodbye
+- utter_greet
+- utter_intro
+- utter_ask_location
+
 entities:
 - location
+
 intents:
-- greet
 - goodbye
 - ask_location
+- greet
 - inform
+- how_may_i_help?
 
 slots:
   location:
@@ -22,6 +26,11 @@ templates:
   - text: please tell me the Country you want the details for
   - text: for the world? or for any specific country, specify which country in the
       case of latter
+  utter_fallback:
+  - text: I do not understand what you are saying, I can only give you covid19 details
+      givin the location
+  - text: sorry, I did not understand that, please give a location so that I can show
+      you covi19 details
   utter_goodbye:
   - text: Nikal!pehli fursat me nikal!
   - text: See tou later, take care!
@@ -29,3 +38,6 @@ templates:
   utter_greet:
   - text: hello, How can i help you??
   - text: Hi, I am Alfredo, how can i help you?
+  utter_intro:
+  - text: I am Alfredo, your assistant to help you with covid19 numbers
+  - text: I am Alfredo, your trained assistant.

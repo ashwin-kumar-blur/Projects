@@ -26,27 +26,27 @@
         "text": "hey there"
       },
       {
-        "intent": "inform",
+        "intent": "ask_location",
         "text": "i'm looking for details on corona virus"
       },
       {
-        "intent": "inform",
+        "intent": "ask_location",
         "text": "i'm looking for details on covid19"
       },
       {
-        "intent": "inform",
+        "intent": "ask_location",
         "text": "how many people died in the world due to covid19?"
       },
       {
-        "intent": "inform",
+        "intent": "ask_location",
         "text": "could you please help me with covid19 updates?"
       },
       {
-        "intent": "inform",
+        "intent": "ask_location",
         "text": "could you please help me with corona virus updates?"
       },
       {
-        "intent": "inform",
+        "intent": "ask_location",
         "text": "could you please help me with current numbers?"
       },
       {
@@ -89,12 +89,6 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 8,
-            "end": 15,
-            "value": "figures",
-            "entity": "details"
-          },
-          {
             "start": 41,
             "end": 46,
             "value": "world",
@@ -106,12 +100,6 @@
       {
         "intent": "inform",
         "entities": [
-          {
-            "start": 8,
-            "end": 15,
-            "value": "details",
-            "entity": "details"
-          },
           {
             "start": 27,
             "end": 36,
