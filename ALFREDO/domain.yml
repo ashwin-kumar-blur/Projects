@@ -1,0 +1,31 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- actions.Inform_Action
+entities:
+- location
+intents:
+- greet
+- goodbye
+- ask_location
+- inform
+
+slots:
+  location:
+    type: text
+templates:
+  utter_ask_location:
+  - text: sure, could you help me with the location?
+  - text: please tell me the Country you want the details for
+  - text: for the world? or for any specific country, specify which country in the
+      case of latter
+  utter_goodbye:
+  - text: Nikal!pehli fursat me nikal!
+  - text: See tou later, take care!
+  - text: kalji ghe re!
+  utter_greet:
+  - text: hello, How can i help you??
+  - text: Hi, I am Alfredo, how can i help you?

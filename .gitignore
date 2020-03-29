@@ -1,0 +1,8 @@
+# this should tell git, what all Files and folders to Ignore
+
+ALFREDO/venv/
+ALFREDO/venv
+ALFREDO/venv/*
+gradient_descent/venv/
+gradient_descent/venv/*
+gradient_descent/venv

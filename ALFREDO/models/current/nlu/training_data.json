@@ -1,0 +1,317 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "inform",
+        "text": "i'm looking for details on corona virus"
+      },
+      {
+        "intent": "inform",
+        "text": "i'm looking for details on covid19"
+      },
+      {
+        "intent": "inform",
+        "text": "how many people died in the world due to covid19?"
+      },
+      {
+        "intent": "inform",
+        "text": "could you please help me with covid19 updates?"
+      },
+      {
+        "intent": "inform",
+        "text": "could you please help me with corona virus updates?"
+      },
+      {
+        "intent": "inform",
+        "text": "could you please help me with current numbers?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "world",
+            "entity": "location"
+          }
+        ],
+        "text": "In the world"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "worldwide",
+            "entity": "location"
+          }
+        ],
+        "text": "worldwide"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "all over",
+            "entity": "location"
+          }
+        ],
+        "text": "all over"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "figures",
+            "entity": "details"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "world",
+            "entity": "location"
+          }
+        ],
+        "text": "current figures for covid19 all over the world"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "details",
+            "entity": "details"
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "worldwide",
+            "entity": "location"
+          }
+        ],
+        "text": "current details on covid19 worldwide"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Spain",
+            "entity": "location"
+          }
+        ],
+        "text": "could you please help me with the current numbers in Spain for covid19?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Spain",
+            "entity": "location"
+          }
+        ],
+        "text": "could you please help me with the current numbers in Spain for corona infected?"
+      },
+      {
+        "intent": "inform",
+        "text": "total number of deaths in the world due to covid19"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "world",
+            "entity": "location"
+          }
+        ],
+        "text": "how many deaths in the world due to covid19?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "India",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the death toll in India"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "USA",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the death count in USA"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "India",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the recovered numbers in India"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "Japan",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the recovered total cases in Japan"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "France",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the Confirmed cases in France"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "China",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the  infected cases in China"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "France",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the  reported  total cases in France"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "how_may_i_help?",
+        "text": "how can you help?"
+      },
+      {
+        "intent": "how_may_i_help?",
+        "text": "you tell me"
+      },
+      {
+        "intent": "how_may_i_help?",
+        "text": "I do not know"
+      },
+      {
+        "intent": "how_may_i_help?",
+        "text": "who are you?"
+      },
+      {
+        "intent": "how_may_i_help?",
+        "text": "introduce yourself"
+      },
+      {
+        "intent": "how_may_i_help?",
+        "text": "what is your name?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ttyl"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bubye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "buhbye"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

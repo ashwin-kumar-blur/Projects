@@ -1,0 +1,39 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- utter_inform
+- actions.Inform_Action
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- ask_location:
+    use_entities: true
+- inform:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots:
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: sure, could you help me with the location?
+  - text: please tell me the Country you want the details for
+  - text: for the world? or for any specific country, specify which country in the
+      case of latter
+  utter_goodbye:
+  - text: Nikal!pehli fursat me nikal!
+  - text: See tou later, take care!
+  - text: kalji ghe re!
+  utter_greet:
+  - text: hello, How can i help you??
+  - text: Hi, I am Alfredo, how can i help you?
